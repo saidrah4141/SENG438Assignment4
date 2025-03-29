@@ -1,0 +1,1120 @@
+{
+  "id": "18c95e01-e88c-4485-8733-21c4d8d1600a",
+  "version": "2.0",
+  "name": "SENG 438 Home Depot Test",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "668ff8f5-5b93-4a41-a5c1-0cbaa48a30a0",
+    "name": "Login with Valid Account",
+    "commands": [{
+      "id": "6775ae32-2170-4057-b07b-a34248a1bd47",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/myaccount",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c48b121-ea75-4a97-aefa-371966d0cf03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b5bb648-c544-4e0b-b0d3-0a5a6f922dae",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "143c5263-1fe4-4b68-98c1-f7a738895c76",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bilal119797@gmail.com"
+    }, {
+      "id": "01e9d6ae-1e52-44b8-9fab-0e086a8d74fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a651c6e-5745-464e-90ad-95f764521a27",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "gui_testing_123"
+    }, {
+      "id": "d977b18a-729a-45e7-8d51-8306e64b823b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary:nth-child(1)",
+      "targets": [
+        ["css=.acl-button--theme--primary:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69aa85e9-ac8d-4411-8596-973db637f082",
+    "name": "Login with Invalid Account",
+    "commands": [{
+      "id": "e18a1405-b155-43c2-a59f-5c938fd8a31a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/myaccount",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae6032d-33d0-4c5e-89bc-2dcf90b7fa0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dc24bd9-2ebf-489f-bd6a-90fecc0c45bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f6ede94-13e6-4121-bebb-705146b1f88b",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "b29f3842-f66c-4ccf-a545-01e880ca989d",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1038d56-8b49-45a4-ba1f-cc39be7bb91b",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "7fb366b2-e848-4fd1-b8ca-d9e9bcfd6f97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary:nth-child(1)",
+      "targets": [
+        ["css=.acl-button--theme--primary:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7017bbbe-d554-49cf-9f3e-91581d6b6868",
+    "name": "Searching office chair",
+    "commands": [{
+      "id": "3b08a438-a4a4-493f-833b-4c06faabcedc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1b78d93-da14-42c6-b24c-5f1c30db8e6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1be273f5-bf59-48e0-9be7-987c3dc6bc8a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[contains(@class, 'acl-input') and @type='search']",
+      "targets": [
+        ["id=id1129", "id"],
+        ["css=#id1129", "css:finder"],
+        ["xpath=//input[@id='id1129']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1dfd047-0835-4fea-aeda-e551dcf574b3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[contains(@class, 'acl-input') and @type='search']",
+      "targets": [
+        ["id=id1129", "id"],
+        ["css=#id1129", "css:finder"],
+        ["xpath=//input[@id='id1129']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "office chair"
+    }, {
+      "id": "42668a20-5027-4c80-98d3-6d7f4e68deb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "717b80e5-c8cb-4c2a-88e8-ecc17e9be512",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Office Chairs: Computer, Desk, Ergonomic & More - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "30863fec-0b29-4e06-a015-86a803ece68d",
+    "name": "Testing \"Add to Cart\"",
+    "commands": [{
+      "id": "fe69d11b-d9be-4361-8dff-37319a856b23",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf5ffccd-06a1-472f-9b83-0ee9e5f1ac8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afd8c882-2936-4ac0-8b6a-7ba2044aa044",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[contains(@class, 'acl-input') and @type='search']",
+      "targets": [
+        ["id=id1538", "id"],
+        ["css=#id1538", "css:finder"],
+        ["xpath=//input[@id='id1538']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ae7732d-fcf6-43c8-80d7-b8ff57f3b645",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[contains(@class, 'acl-input') and @type='search']",
+      "targets": [
+        ["id=id1538", "id"],
+        ["css=#id1538", "css:finder"],
+        ["xpath=//input[@id='id1538']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chair"
+    }, {
+      "id": "bab31cad-8963-41d8-8f28-79433d67df3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d64366b3-309b-4155-a0ef-c9b68151b6f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebdbdd26-4f6f-4fcf-a3b1-954537ca0346",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df9fca08-e6ca-462e-b076-630157ffc9c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,468)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c56d06fc-269b-4507-9d15-387890d28274",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom > .acl-button",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom > .acl-button", "css:finder"],
+        ["xpath=//section[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "297a9b5b-0274-47a1-9fa4-8ebe086b518d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa0f1a4-0d9b-49e1-baa8-7128653274d7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc7e392f-9f7f-4ffb-91ae-6021aa60f222",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button--theme--paypal",
+      "targets": [
+        ["css=.acl-button--theme--paypal", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/ng-component/cart-checkout-now-and-checkout-with-paypal/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout with')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "667df9c9-2ee5-432a-b273-ac8e14db44ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-button--theme--paypal",
+      "targets": [
+        ["css=.acl-button--theme--paypal", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/ng-component/cart-checkout-now-and-checkout-with-paypal/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout with')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78616452-9444-4009-ba49-2146cb082c10",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='orderSummaryContainer']/ng-component/cart-checkout-now-and-checkout-with-paypal/button", "xpath:idRelative"],
+        ["xpath=//cart-checkout-now-and-checkout-with-paypal/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d360dc7-e782-40d6-9a2f-aacbd0d3d6d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='orderSummaryContainer']/ng-component/cart-checkout-now-and-checkout-with-paypal/button", "xpath:idRelative"],
+        ["xpath=//cart-checkout-now-and-checkout-with-paypal/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3427b424-1a8e-4d12-a2cd-1db14eb0bc1d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Cart | Home Depot Canada",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "63027228-3a9c-43a1-9cbe-aab21e34dab4",
+    "name": "Changing store location",
+    "commands": [{
+      "id": "c18d2302-a497-4b89-95cc-d2df230c78f6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba3af8a5-feaf-4366-b152-7dff0a2dc396",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7417f7b8-3855-49af-8745-ac2ab747b553",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c10af8-bc0e-4315-8d5f-c898eb24cfcb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6865afd-8399-4dc5-88bb-ba439fd616c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary Chinook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5478f449-7146-40ce-af3e-cc0194f815ef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77fdb39d-13b3-415c-b12f-ee4ebde41f9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=default",
+      "targets": [
+        ["id=default", "id"],
+        ["name=default", "name"],
+        ["css=#default", "css:finder"],
+        ["xpath=//input[@id='default']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77887df8-c620-4b09-bcb4-629f9d1b79d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=default",
+      "targets": [
+        ["id=default", "id"],
+        ["name=default", "name"],
+        ["css=#default", "css:finder"],
+        ["xpath=//input[@id='default']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Toronto"
+    }, {
+      "id": "3e196805-03da-4fdc-953d-bd0e7baa131f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-input-group__action-button-icon > svg",
+      "targets": [
+        ["css=.hdca-input-group__action-button-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b35e94a-fe95-48e3-851f-4b2df0b11dab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(1) .acl-button--theme--primary",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(1) .acl-button--theme--primary", "css:finder"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Select')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1af2f2f8-8de4-4c8e-a78b-8234d9f77ceb",
+    "name": "custommer support",
+    "commands": [{
+      "id": "83b73eb4-b6b4-4202-a1a5-e8dec32fb9b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69643de4-9f3c-431d-8e24-862bacf0cb45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb0cbcf1-7c07-4d47-a8b2-6a23982e67de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22615e53-34e9-4f3e-a3ce-e9b1a6ca5133",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f515bc-9fe6-4ae6-a20b-3dc073e53f47",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Support",
+      "targets": [
+        ["linkText=Customer Support", "linkText"],
+        ["css=.acl-list-item:nth-child(5) > .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/home/customer-support.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b62f18c-b483-48dc-8038-802e392bb85e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styledlayoutcontainer:nth-child(2) .hdca-image__image",
+      "targets": [
+        ["css=.styledlayoutcontainer:nth-child(2) .hdca-image__image", "css:finder"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7657bf-6a7b-4fc8-bf8b-a2b2b6fd8e01",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styledlayoutcontainer:nth-child(2) .hdca-image__image",
+      "targets": [
+        ["css=.styledlayoutcontainer:nth-child(2) .hdca-image__image", "css:finder"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06cedd17-5bb9-4a31-b9b9-a9e3894feceb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label",
+      "targets": [
+        ["css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "180e6986-48f7-4446-8403-120f4325af4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label",
+      "targets": [
+        ["css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72cd63e5-6d38-43bf-b214-067314086a23",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label",
+      "targets": [
+        ["css=.styledlayoutcontainer:nth-child(2) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d26f33-6944-49fc-8fca-bedc46ae04fe",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Customer Support - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c8b6b3d-4bf1-4302-a47e-c8064bdb07b5",
+    "name": "(About us) Oppening company information",
+    "commands": [{
+      "id": "b7999c1c-91b8-438c-a744-95aedde91843",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a7124c9-6b4c-4792-9967-3245cbd8f5dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb8afe7-5d0b-4dee-a64c-7ef6cf93e699",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a50bf8e-77ab-4e2b-bee0-aca57b83f889",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title", "css:finder"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Don’t Miss Out on the Final Days of Refresh for Less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef2d9669-8049-4c99-a168-b588d75603c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bf2f8cf-8a04-4ae7-a7ee-812b40023035",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title", "css:finder"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Don’t Miss Out on the Final Days of Refresh for Less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0570cf-f65f-44b4-81c5-0ab083561f9c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1942)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd149fb2-7915-4d13-a6c1-1cd18e95bdbe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3178)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f440477c-8216-412e-94a1-3a51b32bc21c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bcce64f-38a8-4e18-92d9-5c0d3b008bbe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6489.033203125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e9f48e-2e8b-4b5f-8af3-7e192763a7d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer4 .hdca-footer-links__list-item:nth-child(2) > .hdca-footer-links__list-link",
+      "targets": [
+        ["css=#footer4 .hdca-footer-links__list-item:nth-child(2) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Company Information')]", "xpath:link"],
+        ["xpath=//section[@id='footer4']/ol/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/corporate-information.html')]", "xpath:href"],
+        ["xpath=//section[4]/ol/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76be2d0e-315c-4d6e-b79d-7cd490bbbd1b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Company Information",
+      "targets": [
+        ["linkText=Company Information", "linkText"],
+        ["css=#footer4 .hdca-footer-links__list-item:nth-child(2) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Company Information')]", "xpath:link"],
+        ["xpath=//section[@id='footer4']/ol/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/corporate-information.html')]", "xpath:href"],
+        ["xpath=//section[4]/ol/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Company Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49aeaa63-c568-4c86-8170-0cadf13b412c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Company Information - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3b36296d-dadb-4780-b149-c755ffa4dcbd",
+    "name": "Selecting Random department",
+    "commands": [{
+      "id": "6988c691-fe3b-4069-9962-bb610ad50704",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad67bc40-56b4-4803-ba1c-dd525d284579",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60778ea1-4de1-415a-a36c-d413a4f4e851",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc3d6d9-a6a1-465c-9f96-7e19db798d2d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54901f39-eca6-47cc-b1ee-243d87729d2e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ShopMainNavNode",
+      "targets": [
+        ["id=ShopMainNavNode", "id"],
+        ["linkText=Shop by Department", "linkText"],
+        ["css=#ShopMainNavNode", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']", "xpath:attributes"],
+        ["xpath=//acl-main-nav-item[@id='ShopMainNavNodeContainer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[12]", "xpath:href"],
+        ["xpath=//acl-main-nav-item/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2245b8eb-bb08-4ea2-b40b-4456244af300",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ShopMainNavNode",
+      "targets": [
+        ["id=ShopMainNavNode", "id"],
+        ["linkText=Shop by Department", "linkText"],
+        ["css=#ShopMainNavNode", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']", "xpath:attributes"],
+        ["xpath=//acl-main-nav-item[@id='ShopMainNavNodeContainer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[12]", "xpath:href"],
+        ["xpath=//acl-main-nav-item/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68793070-e935-4998-8dad-41ff1c38c44e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l1:nth-child(1) svg",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l1:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a134e3ca-976d-4fad-88db-c36906f3ada3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kitchen Packages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9311826c-fce1-4bb3-b73b-a188528cc080",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Kitchen Appliance Packages - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "89eefd3e-bf58-4d88-a83b-40a11f7d00c6",
+    "name": "Search Jobs",
+    "commands": [{
+      "id": "d686803f-a57e-4c44-ab01-65122e849423",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f8722a9-cf26-4de6-ba4e-ed0df96b1713",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f20f5152-d7d5-4d07-a2a5-7310ea24a517",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ed7b01-68fb-44a6-b58b-5134e7a63575",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title", "css:finder"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Don’t Miss Out on the Final Days of Refresh for Less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "712cafa8-0d3a-41e1-97c5-a8df423829cf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da470e82-6711-4076-adcd-859f0df50f4e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__title", "css:finder"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Don’t Miss Out on the Final Days of Refresh for Less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e5e21b-e109-4860-aa2a-5cc758733670",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1942)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c45ddf0-0cb5-4725-9f33-1f3dbe92fcf2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3178)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb107e92-6af9-4263-be6a-df00d6e8a032",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4004eb22-9f6d-4814-ab16-28b2e5b26890",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__content > .hdca-cms-hero-banner__link",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__content > .hdca-cms-hero-banner__link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/en/home/categories/all/events/bathroom-renovation-event.html?intid=HP_H1_250327_ALL_RFL_EN_NA')])[2]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc033db-69c3-4cb7-b5b4-7eec1cc3ad20",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff4327d9-fdbb-47c1-a93a-8d372cc335a1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__content > .hdca-cms-hero-banner__link",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__content > .hdca-cms-hero-banner__link", "css:finder"],
+        ["xpath=(//a[contains(@href, '/en/home/categories/all/events/bathroom-renovation-event.html?intid=HP_H1_250327_ALL_RFL_EN_NA')])[2]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f609e14-e7bf-4c73-9acd-6206ed41968c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2639)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf01ec86-a807-429f-b620-74e00f5b5306",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4364)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4ee4857-b9db-48b4-8111-fdae7058f0f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6510.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25b16f09-559c-452a-a5d6-3f2e373828cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers in Canada",
+      "targets": [
+        ["linkText=Careers in Canada", "linkText"],
+        ["css=#footer4 .hdca-footer-links__list-item:nth-child(1) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers in Canada')]", "xpath:link"],
+        ["xpath=//section[@id='footer4']/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://careers.homedepot.ca/')])[2]", "xpath:href"],
+        ["xpath=//section[4]/ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers in Canada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec47d3e-fb4b-4cd1-8854-8911c2cb349c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search Jobs",
+      "targets": [
+        ["linkText=Search Jobs", "linkText"],
+        ["css=.intro > a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Search Jobs')])[2]", "xpath:link"],
+        ["xpath=//body[@id='homepage']/div/main/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://careers.homedepot.ca/job-search')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c21a6ffc-c922-4194-8534-dbcb4f9ebf3e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6489.033203125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3db37c9a-5867-4b8c-8f6a-dcc512705d64",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Find Your Career at Home Depot Canada | Job Search",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a157ebcf-ff7b-4e41-9b09-deb74fa37b38",
+    "name": "View Stores on the Map",
+    "commands": [{
+      "id": "39012e8d-1aca-4515-ba6a-678b3c105862",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7538b668-7d06-4931-9a34-d946b88398a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "253ca0cb-168f-4609-907c-73a397150db4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7266480b-7f6d-4f05-a0e3-e9934cea9523",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21d48f6-b0c8-4fe3-b243-42ad5c86e657",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,937)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe606b2-8a61-4c07-a3a0-bff61bcfa814",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2042)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1cb1dda-397e-49db-ba7f-79d3e939321f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3261.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68cdf429-8ec2-4f64-8598-8fd178b823da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4349.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9839217c-d60b-407f-8524-add793466206",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5534.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0106cf7-9f53-46d1-afc2-d9eca2d20499",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers in Canada",
+      "targets": [
+        ["linkText=Careers in Canada", "linkText"],
+        ["css=#footer4 .hdca-footer-links__list-item:nth-child(1) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers in Canada')]", "xpath:link"],
+        ["xpath=//section[@id='footer4']/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://careers.homedepot.ca/')])[2]", "xpath:href"],
+        ["xpath=//section[4]/ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers in Canada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f08fd819-c554-4d50-881e-74073c5fc1ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.map-title",
+      "targets": [
+        ["css=.map-title", "css:finder"],
+        ["xpath=//body[@id='homepage']/div/main/div/div/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2863a336-ff72-4687-9458-c9e95e752556",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "366a8f1e-fbfc-4506-99be-9c6fbbb167df",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/", "https://www.homedepot.ca/myaccount"],
+  "plugins": []
+}
